@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.rules.studio.model.decisionservice:Operation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" xmlns:ilog.rules.studio.model.query.extractor="http://ilog.rules.studio/model/query/extractor.ecore" rulesetName="TlpInsuranceDecisionOperation" usingRuleflow="true" ruleflowName="pricing tier rule flow" targetRuleProjectName="tlp-insurance-decision-operation">
+  <name>TlpInsuranceDecisionOperation</name>
+  <uuid>3ba16c04-3b64-49c4-8db1-0a96c5988926</uuid>
+  <referencedVariables variableName="request" variableSetName="tlp insurance variable">
+    <variableSet href="../../tlp-insurance-bom/rules/tlp%20insurance%20variable.var#3c958273-bd5a-4789-af4e-88ebdf9558a2"/>
+  </referencedVariables>
+  <referencedVariables variableName="response" variableSetName="tlp insurance variable" direction="OUT">
+    <variableSet href="../../tlp-insurance-bom/rules/tlp%20insurance%20variable.var#3c958273-bd5a-4789-af4e-88ebdf9558a2"/>
+  </referencedVariables>
+  <ruleflow href="../../tlp-insurance-orchestration/rules/pricing%20tier%20rule%20flow.rfl#930c35d8-05df-4ca5-93eb-e242f5c3af6a"/>
+  <extractor xsi:type="ilog.rules.studio.model.query.extractor:QueryExtractor" name="TlpInsuranceDecisionOperation_extractor" validator="Default Validator"/>
+  <targetRuleProject href="../../tlp-insurance-decision-operation#cdaedb67-ba27-41f3-b739-b26660c5931b"/>
+</com.ibm.rules.studio.model.decisionservice:Operation>

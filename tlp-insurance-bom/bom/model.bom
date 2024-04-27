@@ -1,0 +1,32 @@
+
+property loadGetterSetterAsProperties "true"
+property origin "xom:/tlp-insurance-bom//TLPInsurnaceXOM"
+property uuid "dfabc112-0247-4077-920a-b687c83cf4a2"
+package com.tlp.insurance.model;
+
+
+public class TlpInsuranceRequest
+{
+    public int ageOfProperty;
+    public CoverageType coverageType;
+    public IndustryType industry;
+    public int numberOfBankruptcies;
+    public int priorLosses;
+    public int propertyValue;
+    public ConstructionType typesOfConstruction;
+    public int yearInBusiness;
+    public int yearsAtCurrentAddress;
+    public TlpInsuranceRequest();
+    public string toString();
+}
+
+public class TlpInsuranceResponse
+{
+    public Levels coverageLiability;
+    public FinancialStabilityTypes financialStability;
+    public PricingTierType pricingTier;
+    public Levels propertyRisk;
+    public TlpInsuranceResponse();
+    public string toString();
+}
+

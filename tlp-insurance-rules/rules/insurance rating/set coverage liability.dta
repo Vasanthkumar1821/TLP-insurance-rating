@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.dt:DecisionTable xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.dt="http://ilog.rules.studio/model/dt.ecore">
+  <name>set coverage liability</name>
+  <uuid>aa7dfff7-5f93-4f28-8d4f-a9e51ad66710</uuid>
+  <locale>en_US</locale>
+  <definition>
+<DT xmlns="http://schemas.ilog.com/Rules/7.0/DecisionTable" Version="7.0">
+  <Body>
+    <Properties>
+      <Property Name="OptimizedExpressionMemory"><![CDATA[false]]></Property>
+      <Property Name="OptimizedExpressions"><![CDATA[false]]></Property>
+    </Properties>
+    <Structure>
+      <ConditionDefinitions>
+        <ConditionDefinition Id="C0">
+          <ExpressionDefinition>
+            <Text><![CDATA[the coverage type of request is <a CoverageType> ]]></Text>
+          </ExpressionDefinition>
+        </ConditionDefinition>
+        <ConditionDefinition Id="C1">
+          <ExpressionDefinition>
+            <Text><![CDATA[the industry of request is <an IndustryType> ]]></Text>
+          </ExpressionDefinition>
+        </ConditionDefinition>
+      </ConditionDefinitions>
+      <ActionDefinitions>
+        <ActionDefinition Id="A0">
+          <ExpressionDefinition>
+            <Text><![CDATA[set the coverage liability of response to <a Levels>]]></Text>
+          </ExpressionDefinition>
+        </ActionDefinition>
+      </ActionDefinitions>
+    </Structure>
+    <Contents>
+      <Partition DefId="C0">
+        <Condition>
+          <Expression>
+            <Text><![CDATA[<an object> is <an object>]]></Text>
+            <Param><![CDATA[Malpractice]]></Param>
+          </Expression>
+          <Partition DefId="C1">
+            <Condition>
+              <Expression>
+                <Param><![CDATA[Medical]]></Param>
+              </Expression>
+              <ActionSet>
+                <Action DefId="A0">
+                  <Expression>
+                    <Param><![CDATA[High]]></Param>
+                  </Expression>
+                </Action>
+              </ActionSet>
+            </Condition>
+            <Condition>
+              <Expression>
+                <Param><![CDATA[Construction]]></Param>
+              </Expression>
+              <ActionSet>
+                <Action DefId="A0">
+                  <Expression>
+                    <Param><![CDATA[Med]]></Param>
+                  </Expression>
+                </Action>
+              </ActionSet>
+            </Condition>
+            <Condition>
+              <Expression>
+                <Param><![CDATA[Retail]]></Param>
+              </Expression>
+              <ActionSet>
+                <Action DefId="A0">
+                  <Expression>
+                    <Param><![CDATA[Low]]></Param>
+                  </Expression>
+                </Action>
+              </ActionSet>
+            </Condition>
+          </Partition>
+        </Condition>
+        <Condition>
+          <Expression>
+            <Text><![CDATA[<an object> is <an object>]]></Text>
+            <Param><![CDATA[Building]]></Param>
+          </Expression>
+          <Partition DefId="C1">
+            <Condition>
+              <Expression>
+                <Param><![CDATA[Medical]]></Param>
+              </Expression>
+              <ActionSet>
+                <Action DefId="A0">
+                  <Expression>
+                    <Param><![CDATA[Med]]></Param>
+                  </Expression>
+                </Action>
+              </ActionSet>
+            </Condition>
+            <Condition>
+              <Expression>
+                <Param><![CDATA[Construction]]></Param>
+              </Expression>
+              <ActionSet>
+                <Action DefId="A0">
+                  <Expression>
+                    <Param><![CDATA[Med]]></Param>
+                  </Expression>
+                </Action>
+              </ActionSet>
+            </Condition>
+            <Condition>
+              <Expression>
+                <Param><![CDATA[Retail]]></Param>
+              </Expression>
+              <ActionSet>
+                <Action DefId="A0">
+                  <Expression>
+                    <Param><![CDATA[Med]]></Param>
+                  </Expression>
+                </Action>
+              </ActionSet>
+            </Condition>
+          </Partition>
+        </Condition>
+        <Condition>
+          <Expression>
+            <Text><![CDATA[<an object> is <an object>]]></Text>
+            <Param><![CDATA[Contents]]></Param>
+          </Expression>
+          <Partition DefId="C1">
+            <Condition>
+              <Expression>
+                <Param><![CDATA[Medical]]></Param>
+              </Expression>
+              <ActionSet>
+                <Action DefId="A0">
+                  <Expression>
+                    <Param><![CDATA[High]]></Param>
+                  </Expression>
+                </Action>
+              </ActionSet>
+            </Condition>
+            <Condition>
+              <Expression>
+                <Param><![CDATA[Construction]]></Param>
+              </Expression>
+              <ActionSet>
+                <Action DefId="A0">
+                  <Expression>
+                    <Param><![CDATA[Low]]></Param>
+                  </Expression>
+                </Action>
+              </ActionSet>
+            </Condition>
+            <Condition>
+              <Expression>
+                <Param><![CDATA[Retail]]></Param>
+              </Expression>
+              <ActionSet>
+                <Action DefId="A0">
+                  <Expression>
+                    <Param><![CDATA[High]]></Param>
+                  </Expression>
+                </Action>
+              </ActionSet>
+            </Condition>
+          </Partition>
+        </Condition>
+        <Condition>
+          <Expression/>
+          <ActionSet>
+            <Action DefId="A0">
+              <Expression/>
+            </Action>
+          </ActionSet>
+        </Condition>
+        <Condition>
+          <Expression/>
+          <ActionSet>
+            <Action DefId="A0">
+              <Expression/>
+            </Action>
+          </ActionSet>
+        </Condition>
+        <Condition>
+          <Expression/>
+          <ActionSet>
+            <Action DefId="A0">
+              <Expression/>
+            </Action>
+          </ActionSet>
+        </Condition>
+        <Condition>
+          <Expression/>
+          <ActionSet>
+            <Action DefId="A0">
+              <Expression/>
+            </Action>
+          </ActionSet>
+        </Condition>
+        <Condition>
+          <Expression/>
+          <ActionSet>
+            <Action DefId="A0">
+              <Expression/>
+            </Action>
+          </ActionSet>
+        </Condition>
+        <Condition>
+          <Expression/>
+          <ActionSet>
+            <Action DefId="A0">
+              <Expression/>
+            </Action>
+          </ActionSet>
+        </Condition>
+        <Condition>
+          <Expression/>
+          <ActionSet>
+            <Action DefId="A0">
+              <Expression/>
+            </Action>
+          </ActionSet>
+        </Condition>
+        <Condition>
+          <Expression/>
+          <ActionSet>
+            <Action DefId="A0">
+              <Expression/>
+            </Action>
+          </ActionSet>
+        </Condition>
+        <Condition>
+          <Expression/>
+          <ActionSet>
+            <Action DefId="A0">
+              <Expression/>
+            </Action>
+          </ActionSet>
+        </Condition>
+        <Condition>
+          <Expression/>
+          <ActionSet>
+            <Action DefId="A0">
+              <Expression/>
+            </Action>
+          </ActionSet>
+        </Condition>
+      </Partition>
+    </Contents>
+  </Body>
+  <Resources DefaultLocale="en_US">
+    <ResourceSet Locale="en_US">
+      <Data Name="Definitions(C0)#HeaderText"><![CDATA[Coverage]]></Data>
+      <Data Name="Definitions(C1)#HeaderText"><![CDATA[Industry]]></Data>
+      <Data Name="Definitions(A0)#HeaderText"><![CDATA[set liability value]]></Data>
+    </ResourceSet>
+  </Resources>
+</DT>
+</definition>
+</ilog.rules.studio.model.dt:DecisionTable>

@@ -1,0 +1,154 @@
+<b2x:translation xmlns:b2x="http://schemas.ilog.com/JRules/1.3/Translation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schemas.ilog.com/JRules/1.3/Translation ilog/rules/schemas/1_3/b2x.xsd">
+    <id>df4fd713-2451-45cd-a9e1-b1ce89ce107d</id>
+    <lang>ARL</lang>
+    <class>
+        <businessName>ConstructionType</businessName>
+        <executionName>java.lang.String</executionName>
+        <attribute>
+            <name>Brick</name>
+            <getter language="irl"><![CDATA[
+            return "Brick";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>Sticks</name>
+            <getter language="irl"><![CDATA[
+            return "Sticks";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>Straw</name>
+            <getter language="irl"><![CDATA[
+            return "Straw";
+            ]]></getter>
+        </attribute>
+    </class>
+    <class>
+        <businessName>CoverageType</businessName>
+        <executionName>java.lang.String</executionName>
+        <attribute>
+            <name>Building</name>
+            <getter language="irl"><![CDATA[
+            return "Building";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>Contents</name>
+            <getter language="irl"><![CDATA[
+            return "Contents";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>Malpractice</name>
+            <getter language="irl"><![CDATA[
+            return "Malpractice";
+            ]]></getter>
+        </attribute>
+    </class>
+    <class>
+        <businessName>FinancialStabilityTypes</businessName>
+        <executionName>java.lang.String</executionName>
+        <attribute>
+            <name>Average</name>
+            <getter language="irl"><![CDATA[
+            return "Average";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>Excellent</name>
+            <getter language="irl"><![CDATA[
+            return "Excellent";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>Poor</name>
+            <getter language="irl"><![CDATA[
+            return "Poor";
+            ]]></getter>
+        </attribute>
+    </class>
+    <class>
+        <businessName>IndustryType</businessName>
+        <executionName>java.lang.String</executionName>
+        <attribute>
+            <name>Construction</name>
+            <getter language="irl"><![CDATA[
+            return "Construction";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>Medical</name>
+            <getter language="irl"><![CDATA[
+            return "Medical";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>Retail</name>
+            <getter language="irl"><![CDATA[
+            return "Retail";
+            ]]></getter>
+        </attribute>
+    </class>
+    <class>
+        <businessName>Levels</businessName>
+        <executionName>java.lang.String</executionName>
+        <attribute>
+            <name>High</name>
+            <getter language="irl"><![CDATA[
+            return "High";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>Low</name>
+            <getter language="irl"><![CDATA[
+            return "Low";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>Med</name>
+            <getter language="irl"><![CDATA[
+            return "Med";
+            ]]></getter>
+        </attribute>
+    </class>
+    <class>
+        <businessName>PricingTierType</businessName>
+        <executionName>java.lang.String</executionName>
+        <attribute>
+            <name>A</name>
+            <getter language="irl"><![CDATA[
+            return "A";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>B</name>
+            <getter language="irl"><![CDATA[
+            return "B";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>C</name>
+            <getter language="irl"><![CDATA[
+            return "C";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>Empty</name>
+            <getter language="irl"><![CDATA[
+            return "";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>Refer</name>
+            <getter language="irl"><![CDATA[
+            return "Refer";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>Reject</name>
+            <getter language="irl"><![CDATA[
+            return "Reject";
+            ]]></getter>
+        </attribute>
+    </class>
+</b2x:translation>

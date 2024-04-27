@@ -1,0 +1,34 @@
+# Vocabulary Properties
+uuid = 9a0b4265-5072-437d-aef9-f39ca4dfd7ee
+
+# com.tlp.insurance.model.TlpInsuranceRequest
+com.tlp.insurance.model.TlpInsuranceRequest#concept.label = tlp insurance request
+com.tlp.insurance.model.TlpInsuranceRequest.ageOfProperty#phrase.action = set the age of property of {this} to {age of property}
+com.tlp.insurance.model.TlpInsuranceRequest.ageOfProperty#phrase.navigation = {age of property} of {this}
+com.tlp.insurance.model.TlpInsuranceRequest.coverageType#phrase.action = set the coverage type of {this} to {coverage type}
+com.tlp.insurance.model.TlpInsuranceRequest.coverageType#phrase.navigation = {coverage type} of {this}
+com.tlp.insurance.model.TlpInsuranceRequest.industry#phrase.action = set the industry of {this} to {industry}
+com.tlp.insurance.model.TlpInsuranceRequest.industry#phrase.navigation = {industry} of {this}
+com.tlp.insurance.model.TlpInsuranceRequest.numberOfBankruptcies#phrase.action = set the number of bankruptcies of {this} to {number of bankruptcies}
+com.tlp.insurance.model.TlpInsuranceRequest.numberOfBankruptcies#phrase.navigation = {number of bankruptcies} of {this}
+com.tlp.insurance.model.TlpInsuranceRequest.priorLosses#phrase.action = set the prior losses of {this} to {prior losses}
+com.tlp.insurance.model.TlpInsuranceRequest.priorLosses#phrase.navigation = {prior losses} of {this}
+com.tlp.insurance.model.TlpInsuranceRequest.propertyValue#phrase.action = set the property value of {this} to {property value}
+com.tlp.insurance.model.TlpInsuranceRequest.propertyValue#phrase.navigation = {property value} of {this}
+com.tlp.insurance.model.TlpInsuranceRequest.typesOfConstruction#phrase.action = set the types of construction of {this} to {types of construction}
+com.tlp.insurance.model.TlpInsuranceRequest.typesOfConstruction#phrase.navigation = {types of construction} of {this}
+com.tlp.insurance.model.TlpInsuranceRequest.yearInBusiness#phrase.action = set the year in business of {this} to {year in business}
+com.tlp.insurance.model.TlpInsuranceRequest.yearInBusiness#phrase.navigation = {year in business} of {this}
+com.tlp.insurance.model.TlpInsuranceRequest.yearsAtCurrentAddress#phrase.action = set the years at current address of {this} to {years at current address}
+com.tlp.insurance.model.TlpInsuranceRequest.yearsAtCurrentAddress#phrase.navigation = {years at current address} of {this}
+
+# com.tlp.insurance.model.TlpInsuranceResponse
+com.tlp.insurance.model.TlpInsuranceResponse#concept.label = tlp insurance response
+com.tlp.insurance.model.TlpInsuranceResponse.coverageLiability#phrase.action = set the coverage liability of {this} to {coverage liability}
+com.tlp.insurance.model.TlpInsuranceResponse.coverageLiability#phrase.navigation = {coverage liability} of {this}
+com.tlp.insurance.model.TlpInsuranceResponse.financialStability#phrase.action = set the financial stability of {this} to {financial stability}
+com.tlp.insurance.model.TlpInsuranceResponse.financialStability#phrase.navigation = {financial stability} of {this}
+com.tlp.insurance.model.TlpInsuranceResponse.pricingTier#phrase.action = set the pricing tier of {this} to {pricing tier}
+com.tlp.insurance.model.TlpInsuranceResponse.pricingTier#phrase.navigation = {pricing tier} of {this}
+com.tlp.insurance.model.TlpInsuranceResponse.propertyRisk#phrase.action = set the property risk of {this} to {property risk}
+com.tlp.insurance.model.TlpInsuranceResponse.propertyRisk#phrase.navigation = {property risk} of {this}

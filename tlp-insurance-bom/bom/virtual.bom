@@ -1,0 +1,96 @@
+
+property uuid "460aab6b-ec32-4ccc-b70b-ba7ab968b04b"
+
+public class ConstructionType
+        property "com.ibm.rules.domainProvider.msexcel.b2xColumn" "2"
+        property "com.ibm.rules.domainProvider.msexcel.hasHeader" "true"
+        property "com.ibm.rules.domainProvider.msexcel.labelColumn.en" "0"
+        property "com.ibm.rules.domainProvider.msexcel.sheetIndex" "1"
+        property "com.ibm.rules.domainProvider.msexcel.valueColumn" "1"
+        property domainProviderResource "domains.xlsx"
+        property domainValueProviderName "com.ibm.rules.domainProvider.msexcel2007"
+{
+    domain {static Brick, static Sticks, static Straw}
+    public static final readonly ConstructionType Brick;
+    public static final readonly ConstructionType Sticks;
+    public static final readonly ConstructionType Straw;
+}
+
+public class CoverageType
+        property "com.ibm.rules.domainProvider.msexcel.b2xColumn" "2"
+        property "com.ibm.rules.domainProvider.msexcel.hasHeader" "true"
+        property "com.ibm.rules.domainProvider.msexcel.labelColumn.en" "0"
+        property "com.ibm.rules.domainProvider.msexcel.sheetIndex" "2"
+        property "com.ibm.rules.domainProvider.msexcel.valueColumn" "1"
+        property domainProviderResource "domains.xlsx"
+        property domainValueProviderName "com.ibm.rules.domainProvider.msexcel2007"
+{
+    domain {static Malpractice, static Building, static Contents}
+    public static final readonly CoverageType Building;
+    public static final readonly CoverageType Contents;
+    public static final readonly CoverageType Malpractice;
+}
+
+public class FinancialStabilityTypes
+        property "com.ibm.rules.domainProvider.msexcel.b2xColumn" "2"
+        property "com.ibm.rules.domainProvider.msexcel.hasHeader" "true"
+        property "com.ibm.rules.domainProvider.msexcel.labelColumn.en" "0"
+        property "com.ibm.rules.domainProvider.msexcel.sheetIndex" "4"
+        property "com.ibm.rules.domainProvider.msexcel.valueColumn" "1"
+        property domainProviderResource "domains.xlsx"
+        property domainValueProviderName "com.ibm.rules.domainProvider.msexcel2007"
+{
+    domain {static Excellent, static Average, static Poor}
+    public static final readonly FinancialStabilityTypes Average;
+    public static final readonly FinancialStabilityTypes Excellent;
+    public static final readonly FinancialStabilityTypes Poor;
+}
+
+public class IndustryType
+        property "com.ibm.rules.domainProvider.msexcel.b2xColumn" "2"
+        property "com.ibm.rules.domainProvider.msexcel.hasHeader" "true"
+        property "com.ibm.rules.domainProvider.msexcel.labelColumn.en" "0"
+        property "com.ibm.rules.domainProvider.msexcel.sheetIndex" "3"
+        property "com.ibm.rules.domainProvider.msexcel.valueColumn" "1"
+        property domainProviderResource "domains.xlsx"
+        property domainValueProviderName "com.ibm.rules.domainProvider.msexcel2007"
+{
+    domain {static Medical, static Construction, static Retail}
+    public static final readonly IndustryType Construction;
+    public static final readonly IndustryType Medical;
+    public static final readonly IndustryType Retail;
+}
+
+public class Levels
+        property "com.ibm.rules.domainProvider.msexcel.b2xColumn" "2"
+        property "com.ibm.rules.domainProvider.msexcel.hasHeader" "true"
+        property "com.ibm.rules.domainProvider.msexcel.labelColumn.en" "0"
+        property "com.ibm.rules.domainProvider.msexcel.sheetIndex" "0"
+        property "com.ibm.rules.domainProvider.msexcel.valueColumn" "1"
+        property domainProviderResource "domains.xlsx"
+        property domainValueProviderName "com.ibm.rules.domainProvider.msexcel2007"
+{
+    domain {static High, static Med, static Low}
+    public static final readonly Levels High;
+    public static final readonly Levels Low;
+    public static final readonly Levels Med;
+}
+
+public class PricingTierType
+        property "com.ibm.rules.domainProvider.msexcel.b2xColumn" "2"
+        property "com.ibm.rules.domainProvider.msexcel.hasHeader" "true"
+        property "com.ibm.rules.domainProvider.msexcel.labelColumn.en" "0"
+        property "com.ibm.rules.domainProvider.msexcel.sheetIndex" "5"
+        property "com.ibm.rules.domainProvider.msexcel.valueColumn" "1"
+        property domainProviderResource "domains.xlsx"
+        property domainValueProviderName "com.ibm.rules.domainProvider.msexcel2007"
+{
+    domain {static A, static B, static C, static Refer, static Reject, static Empty}
+    public static final readonly PricingTierType A;
+    public static final readonly PricingTierType B;
+    public static final readonly PricingTierType C;
+    public static final readonly PricingTierType Empty;
+    public static final readonly PricingTierType Refer;
+    public static final readonly PricingTierType Reject;
+}
+

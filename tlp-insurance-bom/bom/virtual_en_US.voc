@@ -1,0 +1,41 @@
+# Vocabulary Properties
+uuid = fbb5852a-1928-4458-a797-1dab028702dc
+
+# ConstructionType
+ConstructionType#concept.label = ConstructionType
+ConstructionType.Brick#instance.label = Brick
+ConstructionType.Sticks#instance.label = Sticks
+ConstructionType.Straw#instance.label = Straw
+
+# CoverageType
+CoverageType#concept.label = CoverageType
+CoverageType.Building#instance.label = Building
+CoverageType.Contents#instance.label = Contents
+CoverageType.Malpractice#instance.label = Malpractice
+
+# FinancialStabilityTypes
+FinancialStabilityTypes#concept.label = FinancialStabilityTypes
+FinancialStabilityTypes.Average#instance.label = Average
+FinancialStabilityTypes.Excellent#instance.label = Excellent
+FinancialStabilityTypes.Poor#instance.label = Poor
+
+# IndustryType
+IndustryType#concept.label = IndustryType
+IndustryType.Construction#instance.label = Construction
+IndustryType.Medical#instance.label = Medical
+IndustryType.Retail#instance.label = Retail
+
+# Levels
+Levels#concept.label = Levels
+Levels.High#instance.label = High
+Levels.Low#instance.label = Low
+Levels.Med#instance.label = Med
+
+# PricingTierType
+PricingTierType#concept.label = PricingTierType
+PricingTierType.A#instance.label = A
+PricingTierType.B#instance.label = B
+PricingTierType.C#instance.label = C
+PricingTierType.Empty#instance.label = Empty
+PricingTierType.Refer#instance.label = Refer
+PricingTierType.Reject#instance.label = Reject

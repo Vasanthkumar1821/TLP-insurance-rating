@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.base:VariableSet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.base="http://ilog.rules.studio/model/base.ecore">
+  <name>tlp insurance variable</name>
+  <uuid>3c958273-bd5a-4789-af4e-88ebdf9558a2</uuid>
+  <variables name="request" type="com.tlp.insurance.model.TlpInsuranceRequest" initialValue="new com.tlp.insurance.model.TlpInsuranceRequest()" verbalization="request"/>
+  <variables name="response" type="com.tlp.insurance.model.TlpInsuranceResponse" initialValue="new com.tlp.insurance.model.TlpInsuranceResponse()" verbalization="response"/>
+</ilog.rules.studio.model.base:VariableSet>
